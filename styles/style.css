@@ -7,13 +7,13 @@
 }
 
 .header__menu {
-  display: flex;
+  display: contents;
 }
 
 .header__links-list {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 32px;
 }
 
 .header__links-list-item {
@@ -25,39 +25,39 @@
 }
 
 .header__link {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-style: normal;
   text-decoration: none;
   border-bottom: 1px solid #000;
+  color: #000;
 }
 
 .header__link_active {
   border-bottom: none;
 }
 
-.header__link {
-  text-align: center;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.17;
-  font-style: normal;
-  color: #000;
+.header__link:hover {
+  color: #00a2ff;
 }
 
 .header__logo {
   display: block;
-  width: 148px;
+  margin-left: -150px;
 }
 
 .header__logo-image {
   width: 100%;
 }
 
-.address__lins-container {
-  display: block;
+.header__address {
+  width: 240px;
 }
 
 .header__contact {
   font-size: 18px;
   font-weight: 400;
-  line-height: 1.17;
+  line-height: 1.25;
   font-style: normal;
 }
