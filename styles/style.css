@@ -36,10 +36,12 @@
 
 .header__link_active {
   border-bottom: none;
+  pointer-events: none; 
 }
 
 .header__link:hover {
   color: #00a2ff;
+  transition: .3s;
 }
 
 .header__logo {
