@@ -1,6 +1,6 @@
 # Проектная работа «Оно тебе надо»
 
-## Смотреть : [С чистого листа](https://jon666grid.github.io/s-chistogo-lista/)
+## Смотреть : [С чистого листа](https://jon666grid.github.io/You-need-it/)
 
 
 ## Технологический стек:
