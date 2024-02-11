@@ -1,13 +1,12 @@
 .content-section {
   box-sizing: border-box;
-  width: 1100px;
+  max-width: 1100px;
   margin: auto;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  max-width: 1100px;
   padding: 92px 24px 96px;
 }
 
@@ -51,6 +50,7 @@
 }
 
 .header__logo {
+  width: 148px;
   display: block;
   margin-left: -150px;
 }
@@ -344,4 +344,128 @@
 .footer__social-icon:hover {
   transform: scale(1.15);
   transition: 0.4s;
+}
+
+@media all and (min-width: 640px) and (max-width: 1024px) {
+  .header__links-list {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .header__logo {
+    margin-left: 0px;
+  }
+
+  .text-right {
+    margin-right: 0;
+  }
+
+  .lots__card-list {
+    justify-content: center;
+  }
+
+  .lots__heading {
+    text-align: center;
+  }
+
+  .about__column {
+    column-gap: 30px;
+  }
+
+  .about__logo {
+    margin-left: 45px;
+  }
+
+  .footer__social-list {
+    gap: 20px;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 639px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .header__links-list {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .header__logo {
+    margin-left: 0;
+  }
+
+  .address {
+    text-align: center;
+  }
+
+  .cover__container {
+    padding: 165px 20px 50px;
+  }
+
+  .cover__title {
+    font-size: 70px;
+  }
+
+  .cover__description {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .text-right {
+    margin-right: 0;
+  }
+
+  .cover__description-text {
+    margin-left: 0;
+  }
+
+  .lots {
+    padding: 90px 20px 0;
+  }
+
+  .lots__card-list {
+    justify-content: center;
+  }
+
+  .lots__heading {
+    text-align: center;
+  }
+
+  .card-link {
+    margin-top: 0;
+    max-width: 320px;
+    padding: 25px 20px;
+  }
+
+  .lots__look-more-link {
+    display: block;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .about {
+    padding: 90px 20px;
+  }
+
+  .about__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .about__logo {
+    margin-left: 0;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 0 20px 40px;
+  }
 }
